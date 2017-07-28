@@ -54,6 +54,13 @@ export class VisTimelineService {
     public doubleClick: EventEmitter<any> = new EventEmitter<any>();
 
     /**
+     * Fired when an item is dropped inside the Timeline.
+     *
+     * @type {EventEmitter<any>}
+     * @memberOf VisTimelineService
+     */
+    public drop: EventEmitter<any> = new EventEmitter<any>();
+    /**
      * 	Fired after the dragging of a group is finished.
      *
      * @type {EventEmitter<any>}
