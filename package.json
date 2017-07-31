@@ -1,6 +1,6 @@
 {
   "name": "ng2-vis-forked",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "main": "ng2-vis.js",
   "types": "ng2-vis.d.ts",
   "description": "Angular 2 components for using vis.js",
